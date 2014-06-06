@@ -4,6 +4,7 @@
     <meta name="author" content="Alex Mark" />
     <meta name="description" content="Alex Mark's personal website and porftfolio. He is a Carnegie Mellon student studying Information Systems and Human Computer Interaction."/>
     <meta name="keywords" content="alex mark, ajmark, carnegie mellon, information systems, cmu, alexander mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, web design, interaction design, user interface, information architect"/>
+    <meta name="viewport" content="width=device-width">
     <!-- css -->
     <link rel='stylesheet' type='text/css' href="public/css/style.css">
     <link rel='stylesheet' type='text/css' href="public/css/foundation.min.css">
