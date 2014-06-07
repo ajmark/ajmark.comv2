@@ -42,19 +42,19 @@
             <div class="row view-control show-for-medium-up">
                 <ul class="inline-list text-center view-control-list">
                     <li>
-                        <a id="projects-link" class="view-link" href="#">Projects</a>
+                        <a id="projects-link" class="view-link" href="#" value='projects'>Projects</a>
                     </li>
                     <li>
                         <p>|</p>
                     </li>
                     <li>
-                        <a id="work-experience-link" class="view-link active" href="#">Work Experience</a>
+                        <a id="work-experience-link" class="view-link active" href="#" value='work-experience'>Work Experience</a>
                     </li>
                     <li>
                         <p>|</p>
                     </li>
                     <li>
-                        <a id="resume-link" class="view-link" href="#">Resume</a>
+                        <a id="resume-link" class="view-link" href="#" value='resume'>Resume</a>
                     </li>
                 </ul>
             </div>
