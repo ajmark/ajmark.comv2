@@ -76,24 +76,24 @@ function animateView(target_id) {
 function changeView(target_id) {
     var visible = document.getElementsByClassName('visible');
     // hacky check
-    if (target_id != visible[0].id+"-link") {    
-        if (target_id === "projects-link") {
+    if (target_id != visible[0].id) {    
+        if (target_id === "projects") {
             placeRight(visible[0].id,"projects");
             return
         }
     
-        if (target_id === "resume-link") {
+        if (target_id === "resume") {
             placeLeft(visible[0].id,"resume");
             return
         }
 
-        if (target_id === "work-experience-link" && visible[0].id === "resume"){
+        if (target_id === "work-experience" && visible[0].id === "resume"){
             $('#work-experience').css('left','-50%');
             placeRight(visible[0].id,"work-experience");
             return
         }
 
-        if (target_id === "work-experience-link" && visible[0].id === "projects"){
+        if (target_id === "work-experience" && visible[0].id === "projects"){
             $('#work-experience').css('left','150%');
             placeLeft(visible[0].id,"work-experience");
             return
