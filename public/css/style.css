@@ -123,13 +123,30 @@ nav {
 /**************/
 /*** Views ***/
 
-.content-box {
+.content-box-right {
     padding-top: 3%;
     position: absolute;
     left:150%;
     width:80%;
     margin-left:-40%;
 }
+
+.content-box-middle {
+    padding-top: 3%;
+    position: absolute;
+    left:50%;
+    width:80%;
+    margin-left:-40%;
+}
+
+.content-box-left {
+    padding-top: 3%;
+    position: absolute;
+    left:-50%;
+    width:80%;
+    margin-left:-40%;
+}
+
 
 #work-experience {
     left:50%;

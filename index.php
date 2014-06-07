@@ -42,24 +42,24 @@
             <div class="row view-control show-for-medium-up">
                 <ul class="inline-list text-center view-control-list">
                     <li>
-                        <a id="projects-link" class="view-link" onclick="animateOffScreen()">Projects</a>
+                        <a id="projects-link" class="view-link" href="#">Projects</a>
                     </li>
                     <li>
                         <p>|</p>
                     </li>
                     <li>
-                        <a id="work-experience-link" class="view-link active" onclick="animateRight()">Work Experience</a>
+                        <a id="work-experience-link" class="view-link active" href="#">Work Experience</a>
                     </li>
                     <li>
                         <p>|</p>
                     </li>
                     <li>
-                        <a id="resume-link" class="view-link" onclick="animateLeft()">Resume</a>
+                        <a id="resume-link" class="view-link" href="#">Resume</a>
                     </li>
                 </ul>
             </div>
 
-            <div class="content-box" id="work-experience">
+            <div class="content-box-middle visible" id="work-experience">
                 <h2 class="hide-for-medium-up">Work Experience</h2>
                 <p> Work Experience. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -69,7 +69,7 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div class="content-box" id="resume">
+            <div class="content-box-right" id="resume">
                 <h2 class="hide-for-medium-up">Resume</h2>
                 <p> Resume. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -79,7 +79,7 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div class="content-box" id="projects">
+            <div class="content-box-left" id="projects">
                 <h2 class="hide-for-medium-up">Resume</h2>
                 <p> Projects. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
