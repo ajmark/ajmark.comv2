@@ -9,7 +9,18 @@
     <link rel='stylesheet' type='text/css' href="public/css/style.css">
     <link rel='stylesheet' type='text/css' href="public/css/foundation.min.css">
     <link rel='stylesheet' type='text/css' href="public/css/normalize.css">
+    <link rel='stylesheet' type='text/css' href="public/css/overrides.css">
     <!-- javascript -->
-    <script src="public/js/jQuery-2.1.1"></script>
+    <script src="public/js/jquery.js"></script>
     <script src="public/js/foundation.min.js"></script>
+    <script src="public/js/foundation.topbar.js"></script>
+    <script src="public/js/detectmobile.js"></script>
+    <script src="public/js/main.js"></script>
+    <script src="public/js/mobile-main.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            $(document).foundation();    
+        });
+    </script>
 </head>

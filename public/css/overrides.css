@@ -1,0 +1,38 @@
+.top-bar {
+    background-color: transparent !important;
+    line-height: 0px !important;
+    height:38px;
+}
+
+.top-bar.expanded .toggle-topbar a {
+    color: white !important; 
+}
+
+.top-bar.expanded .title-area {
+    background: #4c4c4e;
+}
+
+.top-bar-section ul {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.top-bar-section ul li {
+    background: #4c4c4e;
+}
+
+.top-bar .toggle-topbar.menu-icon {
+    margin-top: -18px;
+}
+
+.title-area {
+    padding-top: 43px;
+}
+
+.divider {
+    border-top: solid 1px #5E5E60 !important;
+}
+
+.expanded {
+    color:transparent !important;
+}
