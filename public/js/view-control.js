@@ -4,6 +4,10 @@ $(document).ready(function() {
         $('#'+event.target.id).addClass('active');
         animateView(event.target.id);
     });
+
+    $('.view-link-small').click(function(event) {
+        changeView(event.target.attributes.value.value)
+    });
 });
 
 function animateLeft(onscreen, offscreen) {
@@ -67,5 +71,58 @@ function animateView(target_id) {
     } else {
         return
     }
+};
+
+function changeView(target_id) {
+    var visible = document.getElementsByClassName('visible');
+    // hacky check
+    if (target_id != visible[0].id+"-link") {    
+        if (target_id === "projects-link") {
+            placeRight(visible[0].id,"projects");
+            return
+        }
+    
+        if (target_id === "resume-link") {
+            placeLeft(visible[0].id,"resume");
+            return
+        }
+
+        if (target_id === "work-experience-link" && visible[0].id === "resume"){
+            $('#work-experience').css('left','-50%');
+            placeRight(visible[0].id,"work-experience");
+            return
+        }
+
+        if (target_id === "work-experience-link" && visible[0].id === "projects"){
+            $('#work-experience').css('left','150%');
+            placeLeft(visible[0].id,"work-experience");
+            return
+        }
+
+    } else {
+        return
+    }
+};
+
+function placeLeft(onscreen, offscreen) {
+    // place offscreen
+    $('#'+onscreen).css('left','-50%');
+
+    // place onscreen
+    $('#'+offscreen).css('left','50%');
+    // set new visible
+    $("#"+onscreen).removeClass("visible");
+    $("#"+offscreen).addClass("visible");
+};
+
+function placeRight(onscreen, offscreen) {
+    // place offscreen
+    $('#'+onscreen).css('left','150%');
+
+    // animate onscreen
+    $('#'+offscreen).css('left','50%');
+    // set new visible
+    $("#"+onscreen).removeClass("visible");
+    $("#"+offscreen).addClass("visible");
 };
 

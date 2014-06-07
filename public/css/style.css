@@ -108,6 +108,10 @@ nav {
     padding-right: 10%;
 }
 
+.view-link-small:hover {
+    background-color: #4c4c4e !important;
+}
+
 /**************/
 /*** Content ***/
 
@@ -118,6 +122,23 @@ nav {
     width: 100%;
     height: 100%;
     overflow: hidden;
+}
+
+.content-body {
+    padding-bottom:5%;
+}
+
+.content-body h2 {
+    padding-top:10px;
+    margin-bottom: 50px;
+/*    padding-bottom: 15px;*/
+    color: #4c4c4e;
+    /*border-bottom: 1px solid #C9C9CA;*/
+}
+
+.work-logo {
+    float:left;
+    padding-bottom: 10%;
 }
 
 /**************/
