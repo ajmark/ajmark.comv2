@@ -36,3 +36,11 @@
 .expanded {
     color:transparent !important;
 }
+
+.button {
+    background-color: #8d172f; 
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #4c4c4e; 
+}
