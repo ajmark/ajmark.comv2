@@ -14,13 +14,13 @@ function animateLeft(onscreen, offscreen) {
     // animate offscreen
     $('#'+onscreen).animate({
         left:'-50%'
-    }, 1000, function() {
+    }, 650, function() {
         $('#'+onscreen).css('left','-50%');
     });
     // animate onscreen
     $('#'+offscreen).animate({
         left: '50%'
-    }, 1000);
+    }, 650);
     // set new visible
     $("#"+onscreen).removeClass("visible");
     $("#"+offscreen).addClass("visible");
@@ -30,13 +30,13 @@ function animateRight(onscreen, offscreen) {
     // animate offscreen
     $('#'+onscreen).animate({
         left:'150%'
-    }, 1000, function() {
+    }, 650, function() {
         $('#'+onscreen).css('left','150%');
     });
     // animate onscreen
     $('#'+offscreen).animate({
         left: '50%'
-    }, 1000);
+    }, 650);
     // set new visible
     $("#"+onscreen).removeClass("visible");
     $("#"+offscreen).addClass("visible");

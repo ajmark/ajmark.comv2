@@ -8,6 +8,7 @@ html,body {
     height: 100%; 
     margin: 0px; 
     padding: 0px; 
+    overflow-x:hidden;
 }
 
 ul {
@@ -16,12 +17,6 @@ ul {
 
 /**************/
 /*** Header ***/
-
-.shadow {
-  -moz-box-shadow:    -5px 5px 3px -2px #ccc;
-  -webkit-box-shadow: -5px 5px 3px -2px #ccc;
-  box-shadow:         -5px 5px 3px -2px #ccc;
-}
 
 .nav-wrapper {
     padding: 2% 0 0 50px;
@@ -48,9 +43,6 @@ nav {
   border-bottom: 38px solid #8d172f;
   border-left: 20px solid transparent;
   left: -35px;
-  -moz-box-shadow:    0px 5px 3px -2px #ccc;
-  -webkit-box-shadow: 0px 5px 3px -2px #ccc;
-  box-shadow:         0px 5px 3px -2px #ccc;
 }
 #left-banner:after{
     border-top: 38px solid #8d172f;
@@ -220,10 +212,74 @@ nav {
 /**************/
 /*** Projects ***/
 
-.project-box {
-  height:100px;
-  background-color: whitesmoke;
+#projects ul {
+  margin-left:3% !important;
 }
 
+#projects h3 {
+  color:white;
+  font-size:18px;
+  letter-spacing: 2px;
+}
 
+#projects p {
+  color:#ebebeb;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 
+.project-box-container {
+  padding:5px;
+  float: left;
+  display:inline-block;
+
+}
+
+.project-box {
+  padding: 10px 20px;
+  height:130px !important;
+  width:220px !important;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
+  -moz-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
+  box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
+
+}
+
+.blue-box {
+  background-color: #06425A;
+}
+
+.gray-box {
+  background-color: #4c4c4e; 
+}
+
+.orange-box {
+  background-color: #c2652e;
+}
+
+.red-box {
+  background-color: #8d172f;
+}
+
+.light-blue-box {
+  background-color: #19A4D9;
+}
+
+.green-box {
+  background-color: #568D57;
+}
+
+.purple-box {
+  background-color: #4b2b51;
+}
+
+.thumbnail {
+  display:none;
+  position:absolute;
+}
+
+.thumbnail-visible {
+  position:absolute;
+}

@@ -17,6 +17,7 @@
     <script src="public/js/detectmobile.js"></script>
     <script src="public/js/view-control.js"></script>
     <script src="public/js/mobile-main.js"></script>
+    <script src="public/js/main.js"></script>
 
     <script type="text/javascript">
         $(function(){
