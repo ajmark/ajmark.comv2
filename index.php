@@ -98,7 +98,7 @@
                             <h4>Alex Mark</h4>
                             <h6>ajmark@andrew.cmu.edu</h6>
 
-                            <a href="#" class="button tiny">Open PDF Resume</a>
+                            <a href="/files/" target="_blank" class="button tiny">Open PDF Resume</a>
 
                             <ul class="inline-list">
                                 <li>
@@ -123,17 +123,17 @@
                             <h2 class="hide-for-medium-up">Projects</h2>
                             <ul>
                                 <li class="project-box-container">
-                                    <a id="tartantickets-project" href="">
+                                    <a id="tartantickets-project" href="projects/tartan_tickets.php">
                                     <img id="tartantickets-thumb" class="thumbnail" src="public/assets/thumbnails/tartantickets_thumb.png">
                                     <div class="project-box blue-box">
-                                        <h3>TartanTickets</h3><br /><br />
+                                        <h3>Tartan Tickets</h3><br /><br />
                                         <p>Ruby on Rails</p>
                                     </div>
                                     </a>
                                 </li>
                                 
                                 <li class="project-box-container">
-                                    <a id="dinewithdinex-project" href="">
+                                    <a id="dinewithdinex-project" href="projects/dinewithdinex.php">
                                     <img id="dinewithdinex-thumb" class="thumbnail-visible" src="public/assets/thumbnails/dinewithdinex_thumb.png">
                                     <div class="project-box gray-box">
                                         <h3>Dine With DineX</h3><br /><br />
@@ -143,17 +143,17 @@
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="amks-project" href="">
+                                    <a id="amks-project" href="projects/karateschool.php">
                                     <img id="amks-thumb" class="thumbnail" src="public/assets/thumbnails/amks_thumb.png">
                                     <div class="project-box light-blue-box">
-                                        <h3>A&M Karate School</h3><br />
+                                        <h3>A&amp;M Karate School</h3><br />
                                         <p>Ruby on Rails</p>
                                     </div>
                                     </a>
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="fanapp-project" href="">
+                                    <a id="fanapp-project" href="projects/nbafanapp.php">
                                     <img id="fanapp-thumb" class="thumbnail-visible" src="public/assets/thumbnails/fanapp_thumb.png">
                                     <div class="project-box orange-box">
                                         <h3>NBA Fan App</h3><br /><br />
@@ -163,7 +163,7 @@
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="arl-project" href="">
+                                    <a id="arl-project" href="projects/rescueleague.php">
                                     <img id="arl-thumb" class="thumbnail" src="public/assets/thumbnails/arl_thumb.png">
                                     <div class="project-box red-box">
                                         <h3>Animal Rescue League</h3><br />
@@ -173,7 +173,7 @@
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="wim-project" href="">
+                                    <a id="wim-project" href="projects/women_in_medicine.php">
                                     <img id="wim-thumb" class="thumbnail" src="public/assets/thumbnails/wim.png">
                                     <div class="project-box purple-box">
                                         <h3>Women in Medicine</h3><br />
@@ -183,7 +183,7 @@
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="relationpic-project" href="">
+                                    <a id="relationpic-project" href="projects/relationpic.php">
                                     <img id="relationpic-thumb" class="thumbnail-visible" src="public/assets/thumbnails/relationpic_thumb.png">
                                     <div class="project-box blue-box">
                                         <h3>Relationpic</h3><br /><br />
@@ -193,21 +193,21 @@
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="ajmark-project" href="">
+                                    <a id="ajmark-project" href="projects/personal_portfolio.php">
                                     <img id="ajmark-thumb" class="thumbnail" src="public/assets/thumbnails/ajmark_thumb.png">
                                     <div class="project-box gray-box">
                                         <h3>ajmark.com</h3><br /><br />
-                                        <p>Personal Website & Portfolio</p>
+                                        <p>Personal Website &amp; Portfolio</p>
                                     </div>
                                     </a>
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="visual-concepts" href="">
+                                    <a id="visual-concepts" href="projects/concepts.php">
                                     <img id="visual-concepts-thumb" class="thumbnail" src="public/assets/thumbnails/visual_concepts_thumb.png">
                                     <div class="project-box green-box">
-                                        <h3>Visual <br />Concepts</h3><br />
-                                        <p>Design Concepts & Graphics</p>
+                                        <h3>Visual Design <br />Concepts</h3><br />
+                                        <p>Design Concepts &amp; Graphics</p>
                                     </div>
                                     </a>
                                 </li>
