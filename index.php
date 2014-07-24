@@ -42,13 +42,13 @@
             <div class="row view-control show-for-medium-up">
                 <ul class="inline-list text-center view-control-list">
                     <li>
-                        <a id="projects-link" class="view-link" value='projects'>Projects</a>
+                        <a id="projects-link" class="view-link" value='work-experience'>About</a>
                     </li>
                     <li>
                         <p>|</p>
                     </li>
                     <li>
-                        <a id="work-experience-link" class="view-link active" value='work-experience'>Work Experience</a>
+                        <a id="work-experience-link" class="view-link active" value='projects'>Projects</a>
                     </li>
                     <li>
                         <p>|</p>
@@ -59,7 +59,7 @@
                 </ul>
             </div>
 
-            <div class="content-box-middle visible" id="work-experience">
+            <div class="content-box-left" id="work-experience">
                 <div class="small-12 medium-10 medium-centered content-body">
                     <div class="row">
                         <h2 class="hide-for-medium-up columns">Work Experience</h2>
@@ -95,28 +95,139 @@
                     <div class="row">
                         <div class="small-12 medium-4 columns">
                             <h2 class="hide-for-medium-up">Resume</h2>
-                            <h4>Alex Mark</h4>
-                            <h6>ajmark@andrew.cmu.edu</h6>
 
                             <a href="/files/" target="_blank" class="button tiny">Open PDF Resume</a>
-
-                            <ul class="inline-list">
-                                <li>
-                                    <a class='social' href='http://www.linkedin.com/pub/alexander-mark/58/9b/605' target='_blank'>LinkedIn</a>
-                                </li>
-                                <li>    
-                                    <a class='social' href='http://www.github.com/ajmark' target='_blank'>GitHub</a>
-                                </li>
-                            </ul>
+                            <div class="span-12 show-for-medium-up resume-wrapper">
+                                <h1>Skills</h1>
+                                <ul>
+                                    <li>CSS</li>
+                                    <li>Dojo</li>
+                                    <li>Git</li>
+                                    <li>HTML</li>
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                    <li>JQuery</li>
+                                    <li>MongoDB</li>
+                                    <li>Node.js</li>
+                                    <li>Python</li>
+                                    <li>RESTful Web Development</li>
+                                    <li>Responsive Web Practices</li>
+                                    <li>Ruby on Rails</li>
+                                    <li>SQL</li>
+                                </ul>
+                                <ul>
+                                    <li>Iterative Wireframing + Prototyping</li>
+                                    <li>Human Computer Interaction Methods</li>
+                                </ul>
+                                <ul>
+                                    <li>Adobe Illustrator</li>
+                                    <li>Adobe InDesign</li>
+                                    <li>Adobe Photoshop</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="medium-8 columns show-for-medium-up">
+                        <div class="medium-8 columns small-12">
+                            <div class='resume-wrapper'>
+                              <h1>Education</h1>
+                              <div class="rbox">
+                                <h4>Carneige Mellon University</h4>
+                                <h5>Class of 2015 | GPA: 3.46 | Dean's List 2014</h5>
+                                <p>B.S. Information Systems<br>
+                                Human Computer Interaction Minor</p>
+                              </div>
+                            </div>
+                            <div class='resume-wrapper'>
+                              <h1>Professional Experience</h1>
+                              <div class='rbox'>
+                                <h4>Product Development Intern</h4>
+                                <h5>Intuit | Mountain View, CA | Summer 2014</h5>
+                                <p>Implemented a scalable solution to reindex 1.5 trillion documents for QuickBooks Online search feature<br>
+                                  Fixed bugs and wrote unit tests for QuickBooks Online search feature</p>
+                              </div>
+                              <div class='rbox'> 
+                                <h4>User Experience Co-op</h4>
+                                <h5>BNY Mellon | Pittsburgh, PA | September 2013 - December 2013</h5>
+                                <p>Built an informational tool that maps BNY Mellon’s front-facing applications and the lines of businesses that they serve<br>
+                                  Restructured Sharepoint site to improve information design
+                                </p>
+                              </div>
+                              <div class='rbox'> 
+                                <h4>Web Application Development Intern</h4>
+                                <h5>BNY Mellon | Pittsburgh, PA | Summer 2013</h5>
+                                <p>Developed portal components for the upgraded version of BNY's Web STP software<br>
+                                  Wrote CRUD functionality for application through server side Java programming
+                                </p>
+                              </div>
+                              <div class='rbox'>
+                                <h4>Technical Intern</h4>
+                                <h5>Harvard Business School Community Partners | Hillsborough, CA | Summer 2012</h5>
+                                <p>Redesigned database system for tracking information of non-profit startups<br>
+                                  Consolidated database to a single cloud computing system on Salesforce.com</p>
+                              </div>
+                              <div class='rbox'>
+                                <h4>Software Development Intern</h4>
+                                <h5>Stanford's Center for Brain Science Research | Palo Alto, CA | Summer 2010</h5>
+                                <p>Debugged brain imaging software user interface in Java programming language<br>
+                                  Increased lab efficiency through improvements of software usability</p>
+                              </div>
+                            </div>
 
+                            <div class='resume-wrapper'>
+                              <h1>Leadership</h1>
+                              <div class='rbox'> 
+                                <h4>Information Systems Student Advisory Committee</h4>
+                                <h5>Sophomore Representative | Pittsburgh, PA | Current</h5>
+                                <p>Arranged events and seminars with faculty members and outside speakers<br>
+                                  Provided a forum for student input on proposed curriculum changes, new programs, and other matters of concern to Information Systems majors</p>
+                              </div>
+                              <div class='rbox'> 
+                                <h4>Carnegie Mellon Freshmen Orientation</h4>
+                                <h5>Orientation Leader | Pittsburgh, PA | August 2013</h5>
+                                <p>Managed the Orientation Counselor selection process<br>
+                                  Led Orientation Counselors to guide freshmen through orientation events<br>
+                                  Facilitated set-up for activities during the week</p>
+                              </div>
+                              <div class='rbox'> 
+                                <h4>Special Olympics Volunteer</h4>
+                                <h5>Head Basketball Coach | San Mateo, CA | January 2008 - May 2011</h5>
+                                <p>Coordinated weekly practices with athletes and volunteers<br>
+                                  Oversaw teams in out of area regional tournaments</p>
+                              </div>
+                            </div>
+                            <div class="resume-wrapper show-for-small">
+                                <h1>Skills</h1>
+                                <ul>
+                                    <li>CSS</li>
+                                    <li>Dojo</li>
+                                    <li>Git</li>
+                                    <li>HTML</li>
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                    <li>JQuery</li>
+                                    <li>MongoDB</li>
+                                    <li>Node.js</li>
+                                    <li>Python</li>
+                                    <li>RESTful Web Development</li>
+                                    <li>Responsive Web Practices</li>
+                                    <li>Ruby on Rails</li>
+                                    <li>SQL</li>
+                                </ul>
+                                <ul>
+                                    <li>Iterative Wireframing + Prototyping</li>
+                                    <li>Human Computer Interaction Methods</li>
+                                </ul>
+                                <ul>
+                                    <li>Adobe Illustrator</li>
+                                    <li>Adobe InDesign</li>
+                                    <li>Adobe Photoshop</li>
+                                </ul>
+                            </div>                             
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="content-box-left" id="projects">
+            <div class="content-box-middle visible" id="projects">
                 <div class="small-12 content-body">
                     <div class="row">
                         <div class="small-12">

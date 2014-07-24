@@ -46,8 +46,8 @@ function animateView(target_id) {
     var visible = document.getElementsByClassName('visible');
 
     if (target_id != visible[0].id) {    
-        if (target_id === "projects") {
-            animateRight(visible[0].id,"projects");
+        if (target_id === "work-experience") {
+            animateRight(visible[0].id,"work-experience");
             return
         }
     
@@ -56,15 +56,15 @@ function animateView(target_id) {
             return
         }
 
-        if (target_id === "work-experience" && visible[0].id === "resume"){
-            $('#work-experience').css('left','-50%');
-            animateRight(visible[0].id,"work-experience");
+        if (target_id === "projects" && visible[0].id === "resume"){
+            $('#projects').css('left','-50%');
+            animateRight(visible[0].id,"projects");
             return
         }
 
-        if (target_id === "work-experience" && visible[0].id === "projects"){
-            $('#work-experience').css('left','150%');
-            animateLeft(visible[0].id,"work-experience");
+        if (target_id === "projects" && visible[0].id === "work-experience"){
+            $('#projects').css('left','150%');
+            animateLeft(visible[0].id,"projects");
             return
         }
 
