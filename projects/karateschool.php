@@ -5,6 +5,7 @@
         <?php include('../includes/nav.php'); ?>
         <div class="project-page-content">
             <div class="main-content medium-8 small-12 columns">
+                <?php include('../includes/project-nav.php'); ?>
                 <h2>The A&M Karate Tournament System</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -27,7 +28,7 @@
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            
+         
             </div>
             <div class="medium-4 small-12 columns project-details">
                 <h5>Project Details</h5>

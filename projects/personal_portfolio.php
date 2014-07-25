@@ -5,6 +5,7 @@
         <?php include('../includes/nav.php'); ?>
         <div class="project-page-content">
             <div class="main-content medium-8 small-12 columns">
+                <?php include('../includes/project-nav.php'); ?>
                 <h2>Personal Website &amp; Portfolio</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

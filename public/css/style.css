@@ -17,7 +17,7 @@ ul {
 }
 
 a {
-  color: white !important;
+  color: white;
 }
 /**************/
 /*** Header ***/
@@ -61,7 +61,7 @@ nav {
 }
 
 #right-banner {
-    background-color: #4c4c4e !important;
+    background-color: #4c4c4e;
     margin-bottom: 5px;
 }
 
@@ -179,14 +179,18 @@ footer {
 }
 
 #projects {
-
+    background-image: url(../assets/accent.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 /**************/
 /*** Work Experience ***/
 
-.work-logo {
+.profile {
     float:left;
-    padding-bottom: 10%;
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
+    -moz-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
+    box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
 }
 
 /**************/
@@ -240,6 +244,7 @@ footer {
 #resume p {
   font-size:12px;
 }
+
 /**************/
 /*** Projects ***/
 
@@ -265,6 +270,10 @@ footer {
   float: left;
   display:inline-block;
 
+}
+
+.project-nav {
+  max-width: 125px !important;
 }
 
 .project-box {
@@ -326,6 +335,17 @@ footer {
   overflow: auto;
 }
 
+.back-button a, .back-button:visited {
+  color: #8d172f;
+}
+
+.back-button:hover {
+  color: #4c4c4e;
+}
+
+
+
+
 .main-content {
   display: inline-block;  
   padding:50px 0 0 0;
@@ -343,7 +363,7 @@ footer {
 
 .project-details {
   display: inline-block;
-  padding: 90px 0 100px 0;
+  padding: 105px 0 100px 0;
 }
 
 /**************/

@@ -62,29 +62,15 @@
             <div class="content-box-left" id="work-experience">
                 <div class="small-12 medium-10 medium-centered content-body">
                     <div class="row">
-                        <h2 class="hide-for-medium-up columns">Work Experience</h2>
-                        <div class="medium-4 columns">
-                            <img src="public/assets/intuit_logo.png" class="work-logo">
-                        </div>
+                        <h2 class="hide-for-medium-up columns">About Me</h2>
                         <div class="medium-8 columns">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                             consequat.</p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="small-12 medium-10 medium-centered content-body">
-                    <div class="row">
                         <div class="medium-4 columns">
-                            <img src="public/assets/bnymellon_logo.png" class="work-logo">
-                        </div>
-                        <div class="medium-8 columns">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</p>
+                            <img src="public/assets/picture.jpg" class="profile">
                         </div>
                     </div>
                 </div>
@@ -96,10 +82,11 @@
                         <div class="small-12 medium-4 columns">
                             <h2 class="hide-for-medium-up">Resume</h2>
 
-                            <a href="/files/" target="_blank" class="button tiny">Open PDF Resume</a>
+                            <a href="files/resume.pdf" target="_blank" class="button tiny">Open PDF Resume</a>
                             <div class="span-12 show-for-medium-up resume-wrapper">
                                 <h1>Skills</h1>
                                 <ul>
+                                    <li>Ajax</li>
                                     <li>CSS</li>
                                     <li>Dojo</li>
                                     <li>Git</li>
@@ -139,36 +126,24 @@
                             <div class='resume-wrapper'>
                               <h1>Professional Experience</h1>
                               <div class='rbox'>
-                                <h4>Product Development Intern</h4>
-                                <h5>Intuit | Mountain View, CA | Summer 2014</h5>
+                                <h4>Intuit QuickBooks Online &nbsp; - &nbsp; Product Development Intern</h4>
+                                <h5>Mountain View, CA | Summer 2014</h5>
                                 <p>Implemented a scalable solution to reindex 1.5 trillion documents for QuickBooks Online search feature<br>
                                   Fixed bugs and wrote unit tests for QuickBooks Online search feature</p>
                               </div>
                               <div class='rbox'> 
-                                <h4>User Experience Co-op</h4>
-                                <h5>BNY Mellon | Pittsburgh, PA | September 2013 - December 2013</h5>
+                                <h4>BNY Mellon &nbsp; - &nbsp; User Experience Co-op</h4>
+                                <h5>Pittsburgh, PA | September 2013 - December 2013</h5>
                                 <p>Built an informational tool that maps BNY Mellon’s front-facing applications and the lines of businesses that they serve<br>
                                   Restructured Sharepoint site to improve information design
                                 </p>
                               </div>
                               <div class='rbox'> 
-                                <h4>Web Application Development Intern</h4>
-                                <h5>BNY Mellon | Pittsburgh, PA | Summer 2013</h5>
+                                <h4>BNY Mellon &nbsp; - &nbsp; Web Application Development Intern</h4>
+                                <h5>Pittsburgh, PA | Summer 2013</h5>
                                 <p>Developed portal components for the upgraded version of BNY's Web STP software<br>
                                   Wrote CRUD functionality for application through server side Java programming
                                 </p>
-                              </div>
-                              <div class='rbox'>
-                                <h4>Technical Intern</h4>
-                                <h5>Harvard Business School Community Partners | Hillsborough, CA | Summer 2012</h5>
-                                <p>Redesigned database system for tracking information of non-profit startups<br>
-                                  Consolidated database to a single cloud computing system on Salesforce.com</p>
-                              </div>
-                              <div class='rbox'>
-                                <h4>Software Development Intern</h4>
-                                <h5>Stanford's Center for Brain Science Research | Palo Alto, CA | Summer 2010</h5>
-                                <p>Debugged brain imaging software user interface in Java programming language<br>
-                                  Increased lab efficiency through improvements of software usability</p>
                               </div>
                             </div>
 
@@ -323,6 +298,7 @@
                                     </a>
                                 </li>
                             </ul>
+
                         </div>
                     </div>
                 </div>

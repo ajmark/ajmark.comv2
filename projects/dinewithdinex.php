@@ -5,6 +5,7 @@
         <?php include('../includes/nav.php'); ?>
         <div class="project-page-content">
             <div class="main-content medium-8 small-12 columns">
+                <?php include('../includes/project-nav.php'); ?>
                 <div class="row">
                     <h2>Dine With DineX</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
