@@ -17,7 +17,7 @@ ul {
 }
 
 a {
-  color: white;
+  color: white !important;
 }
 /**************/
 /*** Header ***/
@@ -179,7 +179,6 @@ footer {
 }
 
 #projects {
-    background-image: url(../assets/accent.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -336,19 +335,27 @@ footer {
 }
 
 .back-button a, .back-button:visited {
-  color: #8d172f;
+  color: #8d172f !important;
+}
+
+.main-content p {
+  font-size: 14px;
+  font-weight:300;
+  padding-bottom: 20px;
 }
 
 .back-button:hover {
   color: #4c4c4e;
 }
 
-
-
-
 .main-content {
   display: inline-block;  
   padding:50px 0 0 0;
+}
+
+.main-content h3 {
+  color:#4c4c4e;
+  padding-top: 25px;
 }
 
 .screenshot-main{
@@ -366,19 +373,47 @@ footer {
   padding: 105px 0 100px 0;
 }
 
+.project-details h6 {
+  color:#4c4c4e;
+  font-size: 14px;
+  margin-bottom:2px;
+}
+
+.project-details li {
+  color:#4c4c4e;
+  font-size:12px;
+  font-weight: 300;
+  margin-top:3px;
+}
+
+.github-link {
+  color: #8d172f !important;
+  font-size:12px;
+}
+
+.project-details ul {
+  margin-left:0px;
+}
+
+.main-content figure {
+  padding-bottom: 30px;
+}
+
+.main-content figcaption {
+  padding-top: 15px;
+}
+
 /**************/
 /*** Tartan Tickets ***/
 
 .erd {
-  width: 50%;
-  padding-bottom:60px;
+  width: 100%;
   min-width:350px;
-  max-width:500px;
   float:left;
 }
 
 .wireframe {
-  width:70%;
+  width:90%;
   -webkit-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
   -moz-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
   box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
@@ -393,26 +428,34 @@ footer {
 /*** Dine With DineX ***/
 
 .dinewithdinex-splash {
-  width:45% !important;
-  margin-right:20px;
+  width:45%;
+  margin:0 auto;
 }
 
 .dinewithdinex-iteration {
-  width:60%;
-  -webkit-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
-  -moz-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
-  box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
+  overflow:auto;
+}
+
+#dinewithdinex-storyboard {
+  width:80%;
+}
+
+.dinewithdinex-newsfeed-mobile {
+  width:30%;
+  float:left;
+  min-width: 180px;
+}
+
+.dinewithdinex-newsfeed-desktop {
+  width:45%;
+  float:left;
 }
 
 /**************/
 /*** Karate School ***/
 
 .karateschool-erd {
-  width: 100%;
   padding-bottom:60px;
-  min-width:350px;
-  max-width:500px;
-  float:left;
 }
 
 

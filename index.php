@@ -82,7 +82,7 @@
                         <div class="small-12 medium-4 columns">
                             <h2 class="hide-for-medium-up">Resume</h2>
 
-                            <a href="files/resume.pdf" target="_blank" class="button tiny">Open PDF Resume</a>
+                            <a href="files/resume.pdf" class="button tiny">Open PDF Resume</a>
                             <div class="span-12 show-for-medium-up resume-wrapper">
                                 <h1>Skills</h1>
                                 <ul>
