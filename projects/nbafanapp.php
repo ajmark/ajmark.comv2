@@ -7,34 +7,52 @@
             <div class="main-content medium-8 small-12 columns">
                 <?php include('../includes/project-nav.php'); ?>
                 <h2>NBA Fan App</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.</p>
-                <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/nbafanapp_home.png">
+                <p>The NBA Fan App is every basketball fan's go-to application to stay updated with 
+                all of the league's most recent news. It uses the ESPN Headlines API to collect news 
+                for every team in the league. It even keeps track of your favorite team and using the
+                Fan Map feature, you can find where other fans live and who their favorite teams are from
+                all across the county.</p>
+                <figure>
+                    <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/nbafanapp_home.png">
+                    <figcaption>Fig. A - League Newsfeed</figcaption>
+                </figure>
+                <h3>Process</h3>
+                <p>In this project, I was tasked with creating an application using Node.js. This was my first
+                project using the framework so it was challenging to learn and develop at the same time. Before
+                I began the development process, I had map out the work-flow of the application through a storyboard.
+                It was also important that this application be responsive, so I designed it's layout to optimize both
+                both mobile and desktop views.
+                </p>
+                <figure id="nba-storyboard">
+                    <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/storyboard_sketch.jpg">
+                    <figcaption>Fig. B - Early Storyboard Sketch </figcaption>
+                </figure>
+                <figure>
+                    <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/fan_map.png">
+                    <figcaption>Fig. C - Fan Map Page</figcaption>
+                </figure>
+                <h3>Result</h3>
+                <p>This was an important project for me because it forced me to learn how to use public API's
+                and the fundamentals of RESTful web practices. I enjoyed learning a new web application framework
+                and it helped me understand how important it is to stay updated with new technologies in this field, 
+                otherwise it can be easy to fall behind.</p>
 
-                <h2>Process</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <img class="erd" src="../public/assets/projectImages/tartanTickets/erd_v1.png">
-                <img class="erd" src="../public/assets/projectImages/tartanTickets/erd_final.png">
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <img class="wireframe" src="../public/assets/projectImages/tartanTickets/wireframe_notes.jpg">
             </div>
             <div class="medium-4 small-12 columns project-details">
                 <h5>Project Details</h5>
-                <h6><b>Course</b></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h6>Course</h6>
+                    <ul>
+                        <li>Mobile to Cloud: Distributed Application Development (Fall 2013)</li>
+                    </ul>
+                <h6>Methods Used</h6>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>ESPN Headlines API, Google Maps API</li>
+                        <li>noSQL</li>
+                    </ul>
+
+                <a class="github-link" target="_blank" href="https://github.com/ajmark/nbaFanApp.git">View source on github</a>
 
             </div>
         </div>  

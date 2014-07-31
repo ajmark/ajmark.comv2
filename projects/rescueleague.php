@@ -7,34 +7,50 @@
             <div class="main-content medium-8 small-12 columns">
                 <?php include('../includes/project-nav.php'); ?>
                 <h2>Animal Rescue League Website Redesign</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.</p>
-                <img class="screenshot-main" src="../public/assets/projectImages/animalRescueLeague/arlfinal1.jpg">
+                <p>This was a school project with a mock client. The purpose of the project was to use 
+                what I have learned about typography and grid systems to redesign a website for an organization. 
+                I was assigned the Animal Rescue League of Pittsburgh. I had to make special considerations for the 
+                specific content and the design objectives that the clients wanted to include in the website. 
+                A large part of this project involved understanding the interactive parts of web design and how different 
+                layouts would offer the best experience for the users.</p>
+                <figure>
+                    <img class="screenshot-main" src="../public/assets/projectImages/animalRescueLeague/arlfinal1.jpg">
+                    <figcaption>Fig A. - Main Landing Page</figcaption>
+                </figure>
+                <h3>Process</h3>
+                <p>One of the main goals of the Animal Rescue League client was to increase the number of views 
+                on the adoption page to help improve adoption numbers from the center. Some of the pain points of 
+                the current website are that there is no clear call to action, the information is unorganized and 
+                irrelevant to their listed categories, and that there are too many navigation options on the homepage 
+                for the user to easily make a decision from. Through my iterations of the homepage, I made the navigation 
+                to the adoption page the focus of the website. I attempted to create a clear call to action to visit the 
+                adoption page and to create a better system to browse available animals.</p>
+                <figure>
+                    <img class="screenshot-main" src="../public/assets/projectImages/animalRescueLeague/pain_point.png">
+                    <figcaption>Fig B. - Old Landing Page</figcaption>
+                </figure>
 
-                <h2>Process</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <img class="erd" src="../public/assets/projectImages/tartanTickets/erd_v1.png">
-                <img class="erd" src="../public/assets/projectImages/tartanTickets/erd_final.png">
-                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <img class="wireframe" src="../public/assets/projectImages/tartanTickets/wireframe_notes.jpg">
+                <figure>
+                    <img class="screenshot-main" src="../public/assets/projectImages/animalRescueLeague/arl_wireframe.jpg">
+                    <figcaption>Fig C. - Wireframe Iteration</figcaption>
+                </figure>  
+
+                <h3>Result</h3>
+                <p>Through this project, I learned how to find and develop purposes for a design and be able to defend my design
+                based on that rationale. There had to be a reason for every feature of my website redesign and it was good practice for
+                a skill I had previously not been accustomed to.</p>              
             </div>
             <div class="medium-4 small-12 columns project-details">
                 <h5>Project Details</h5>
-                <h6><b>Course</b></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h6>Course</h6>
+                    <ul>
+                        <li>Communication Design Fundamentals (Spring 2012)</li>
+                    </ul>
+                <h6>Methods Used</h6>
+                    <ul>
+                        <li>Adobe Photoshop, Adobe Illustrator</li>
+                        <li>Iterative Wireframing + Prototyping</li>
+                    </ul>
 
             </div>
         </div>  

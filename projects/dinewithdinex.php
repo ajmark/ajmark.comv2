@@ -22,35 +22,38 @@
                             <figcaption>Fig. A - Splashscreen</figcaption>
                     </figure>
                 </div>
-                <h2>Process</h2>
+                <h3>Process</h3>
                 <p>We determined that the most important feature of our web application should be that it is a responsive web application.
                 After conducting research on the potential for this kind of application, the majority of students agreed that it should be easily
                 accesible from both mobile and desktop views. Since this was only a semester project, developing a web application was our best approach
                 to creating something fast and effective.</p>
                 <figure id="dinewithdinex-storyboard">
                     <img class="screenshot-main" src="../public/assets/projectImages/dineWithDineX/storyboard.jpg">
-                    <figcaption>Fig. C - Initial Storyboard</figcaption>
+                    <figcaption>Fig. C - Storyboard pt.1</figcaption>
                 </figure>
-
+                <figure id="dinewithdinex-storyboard">
+                    <img class="screenshot-main" src="../public/assets/projectImages/dineWithDineX/storyboard_2.jpg">
+                    <figcaption>Fig. D - Storyboard pt.2</figcaption>
+                </figure>
                 <p>We began our design process following a Mobile First strategy, beginning our designs for mobile only
                 so we could determine the most important features and keep the application as simple as possible.</p>
                 <div class="small-12 dinewithdinex-iteration">
                     <figure class="dinewithdinex-splash">
                         <img class="screenshot-main" src="../public/assets/projectImages/dineWithDineX/newsfeed_iteration.png">
-                        <figcaption>Fig. D - Newsfeed Wireframe</figcaption>
+                        <figcaption>Fig. E - Newsfeed Wireframe</figcaption>
                     </figure>                
                     <figure class="dinewithdinex-newsfeed-mobile">
                         <img class="screenshot-main" src="../public/assets/projectImages/dineWithDineX/newsfeed_mobile.png">
-                        <figcaption>Fig. B - Mobile Newsfeed View</figcaption>
+                        <figcaption>Fig. F - Mobile Newsfeed View</figcaption>
                     </figure> 
                     <figure class="dinewithdinex-newsfeed-desktop">           
                         <img class="screenshot-main" src="../public/assets/projectImages/dineWithDineX/newsfeed_desktop.png">
-                        <figcaption>Fig. C - Desktop Newsfeed View</figcaption>
+                        <figcaption>Fig. G - Desktop Newsfeed View</figcaption>
                     </figure>
                 </div>
 
                 <h3>Result</h3>
-                <p>This project taught me the importance of settings goals for a project and ideation. We had a rough start 
+                <p>This project taught me the importance of setting goals for a project and accomplishing those goals through ideation. We had a rough start 
                 to this project because our project scope was too broad. After we took the time to draw out our ideas and make a plan, 
                 our project started to take off and become successful.</p>
             </div>
@@ -70,8 +73,7 @@
                 <a class="button tiny" target="_blank" href="http://dinewithdinex.herokuapp.com">View Live Project</a>
                 <br>
                 <a class="github-link" target="_blank" href="https://github.com/ajmark/dinewithdinex.git">View source on github</a>
-                    
-
+    
             </div>
         </div>  
         <?php include('../includes/footer.php'); ?>

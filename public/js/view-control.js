@@ -8,6 +8,14 @@ $(document).ready(function() {
     $('.view-link-small').click(function(event) {
         changeView(event.target.attributes.value.value)
     });
+
+    $('#resume-link').click(function(event) {
+        $('#content').css('overflow', 'scroll')
+    });
+
+    $('#work-experience-link, #projects-link').click(function(event) {
+        $('#content').css('overflow','hidden')
+    })
 });
 
 function animateLeft(onscreen, offscreen) {

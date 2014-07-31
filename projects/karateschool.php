@@ -9,7 +9,7 @@
                 <h2>The A&M Karate Tournament System</h2>
                 <p>This was a semester long project assigned in my Web Application Design and Development class. 
                 Our task was to use Ruby on Rails to create a dynamic web application for a mock karate tournament system. 
-                Through this project and this class, I learned how to:
+                Through this project and this class, I learned how to:<br>
                 <br>1. Model data and translate data models into working databases
                 <br>2. Be familiar with the Model-View-Controller pattern in software architecture
                 <br>3. Understand the importance of test driven development
@@ -20,7 +20,7 @@
                     <img class="screenshot-main" src="../public/assets/projectImages/karateschool/amkarateschool.png">
                     <figcaption>Fig. A - View Dojo Page</figcaption>
                 </figure>
-                <h2>Process</h2>
+                <h3>Process</h3>
                 <p>The web app was created in five different phases, each having its own focus on aspects of web application development.</p>
                 
                 <p>In <span>Phase 1</span> of the project, we focused on creating the data model of the application through an entity-relationship diagram, 
@@ -35,19 +35,16 @@
                     <figcaption>Fig. B - Entity Relationship Diagram</figcaption>
                 </figure>
                 <h3>Result</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>This class introduced me to many of the fundamental concepts of web application development and it gave me a 
+                solid foundation to build upon and grow. It was a complex project that made me appreciate how difficult it is
+                to build web applications and it helped me understan the importance of planning and process.</p>
          
             </div>
             <div class="medium-4 small-12 columns project-details">
                 <h5>Project Details</h5>
                 <h6>Course</h6>
                     <ul>
-                        <li>Web Application Design &amp; Development (Spring 2013)</li>
+                        <li>Web Application Design &amp; Development (Spring 2012)</li>
                     </ul>
                 <h6>Methods Used</h6>
                     <ul>
@@ -57,7 +54,7 @@
                     </ul>       
                 <a class="button tiny" target="_blank" href="http://amks.herokuapp.com">View Live Project</a>
                 <br>
-                <a class="github-link" target="_blank" href="https://github.com/ajmark/amks_phase4.git">View source on github</a>    
+                <a class="github-link" target="_blank" href="https://github.com/ajmark/amks">View source on github</a>    
 
             </div>
         </div>  

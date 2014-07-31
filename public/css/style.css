@@ -174,8 +174,8 @@ footer {
 }
 
 #resume {
-  height:600px;
-  overflow: auto;
+/*  height:600px;
+  overflow: auto;*/
 }
 
 #projects {
@@ -183,13 +183,36 @@ footer {
     background-position: bottom;
 }
 /**************/
-/*** Work Experience ***/
+/*** About ***/
 
 .profile {
     float:left;
     -webkit-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
     -moz-box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
     box-shadow: 1px 1px 2px 1px rgba(187, 187, 187, .75);
+}
+
+#work-experience h3 {
+  color:#4c4c4e;
+}
+
+#work-experience h4 {
+  color:#4c4c4e;
+  font-size:12px;
+}
+
+#work-experience p {
+  color:#4c4c4e;
+  padding-top:15px;
+  font-size:14px;
+}
+
+#work-experience a {
+  color: #8d172f !important;
+}
+
+#work-experience a:hover {
+  color:#4c4c4e !important;
 }
 
 /**************/
@@ -344,8 +367,13 @@ footer {
   padding-bottom: 20px;
 }
 
-.back-button:hover {
+.main-content span {
   color: #4c4c4e;
+  font-weight: 700;
+}
+
+.back-button:hover {
+  color: #4c4c4e !important;
 }
 
 .main-content {
@@ -368,6 +396,14 @@ footer {
   padding-top:15px;
 }
 
+.main-content span {
+  color: #8d172f !important;
+}
+
+.main-content a:hover {
+  color: #4c4c4e !important;
+}
+
 .project-details {
   display: inline-block;
   padding: 105px 0 100px 0;
@@ -386,9 +422,13 @@ footer {
   margin-top:3px;
 }
 
-.github-link {
+.github-link, .github-link:visited, .github-link:active {
   color: #8d172f !important;
   font-size:12px;
+}
+
+.github-link:hover {
+  color: #4c4c4e !important; 
 }
 
 .project-details ul {
@@ -460,7 +500,45 @@ footer {
 
 
 /******************/
-/* Resume */
+/* NBA Fan App */
 /******************/
 
+#nba-storyboard {
+  width:45%;
+  margin:0 auto;
+}
 
+/******************/
+/* Relationpic */
+/******************/
+
+#relationpic-splash {
+  width:50%;
+  margin:0 auto;
+}
+
+.relationpic-wireframe {
+  width:50%;
+  margin:0 auto;
+}
+
+/******************/
+/* Concepts */
+/******************/
+
+.mobile-lockscreen {
+  width:45%;
+  margin:0 auto;
+}
+
+.gestalt-principles {
+  width:25%;
+  float:left;
+}
+
+.large-sketch {
+  width:40%;
+}
+
+#gestalt-images{
+}

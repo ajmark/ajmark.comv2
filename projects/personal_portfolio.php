@@ -33,9 +33,12 @@
             </div>
             <div class="medium-4 small-12 columns project-details">
                 <h5>Project Details</h5>
-                <h6><b>Course</b></h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+                <h6>Methods Used</h6>
+                    <ul>
+                        <li>HTML, CSS, JavaScript, PHP</li>
+                        <li>Human-Computer Interaction Methods</li>
+                        <li>Iterative Wireframing + Prototyping</li>
+                    </ul>
             </div>
         </div>  
         <?php include('../includes/footer.php'); ?>

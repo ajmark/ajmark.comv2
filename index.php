@@ -60,17 +60,28 @@
             </div>
 
             <div class="content-box-left" id="work-experience">
-                <div class="small-12 medium-10 medium-centered content-body">
+                <div class="small-12 medium-centered content-body">
                     <div class="row">
                         <h2 class="hide-for-medium-up columns">About Me</h2>
-                        <div class="medium-8 columns">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</p>
+                        <div class="medium-7 columns">
+                            <h3>Alex Mark</h3>
+                            <h4>ajmark@andrew.cmu.edu</h4>
+                            <p>I am a Carnegie Mellon student, studying Information Systems and Human Computer Interaction.
+                            I aspire to work in the UX field through my background as a web application developer and my 
+                            affinity for design and interfaces. I am graduating in May 2015 and will be looking for full 
+                            time opportunties in user experience engineering and interaction design. </p>
+                        
+                            <ul class="inline-list">
+                                <li>
+                                    <a target="_blank" href="https://github.com/ajmark">Github</a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.linkedin.com/profile/view?id=203253413">LinkedIn</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="medium-4 columns">
-                            <img src="public/assets/picture.jpg" class="profile">
+                        <div class="medium-5 columns">
+                            <img src="public/assets/profile.jpg" class="profile">
                         </div>
                     </div>
                 </div>
@@ -221,7 +232,7 @@
                                 <li class="project-box-container">
                                     <a id="dinewithdinex-project" href="projects/dinewithdinex.php">
                                     <img id="dinewithdinex-thumb" class="thumbnail-visible" src="public/assets/thumbnails/dinewithdinex_thumb.png">
-                                    <div class="project-box gray-box">
+                                    <div class="project-box red-box">
                                         <h3>Dine With DineX</h3><br /><br />
                                         <p>Node.js</p>
                                     </div>
@@ -251,7 +262,7 @@
                                 <li class="project-box-container">
                                     <a id="arl-project" href="projects/rescueleague.php">
                                     <img id="arl-thumb" class="thumbnail" src="public/assets/thumbnails/arl_thumb.png">
-                                    <div class="project-box red-box">
+                                    <div class="project-box green-box">
                                         <h3>Animal Rescue League</h3><br />
                                         <p>Website Redesign</p>
                                     </div>
@@ -279,20 +290,10 @@
                                 </li>
 
                                 <li class="project-box-container">
-                                    <a id="ajmark-project" href="projects/personal_portfolio.php">
-                                    <img id="ajmark-thumb" class="thumbnail" src="public/assets/thumbnails/ajmark_thumb.png">
-                                    <div class="project-box gray-box">
-                                        <h3>ajmark.com</h3><br /><br />
-                                        <p>Personal Website &amp; Portfolio</p>
-                                    </div>
-                                    </a>
-                                </li>
-
-                                <li class="project-box-container">
                                     <a id="visual-concepts" href="projects/concepts.php">
                                     <img id="visual-concepts-thumb" class="thumbnail" src="public/assets/thumbnails/visual_concepts_thumb.png">
-                                    <div class="project-box green-box">
-                                        <h3>Visual Design <br />Concepts</h3><br />
+                                    <div class="project-box gray-box">
+                                        <h3>Design <br />Concepts</h3><br />
                                         <p>Design Concepts &amp; Graphics</p>
                                     </div>
                                     </a>
