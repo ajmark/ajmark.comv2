@@ -294,10 +294,6 @@ footer {
 
 }
 
-.project-nav {
-  max-width: 125px !important;
-}
-
 .project-box {
   padding: 10px 20px;
   height:130px !important;
@@ -357,10 +353,6 @@ footer {
   overflow: auto;
 }
 
-.back-button a, .back-button:visited {
-  color: #8d172f !important;
-}
-
 .main-content p {
   font-size: 14px;
   font-weight:300;
@@ -370,10 +362,6 @@ footer {
 .main-content span {
   color: #4c4c4e;
   font-weight: 700;
-}
-
-.back-button:hover {
-  color: #4c4c4e !important;
 }
 
 .main-content {
@@ -401,7 +389,7 @@ footer {
 }
 
 .main-content a:hover {
-  color: #4c4c4e !important;
+  color: #4c4c4e;
 }
 
 .project-details {

@@ -69,7 +69,7 @@
                             <p>I am a Carnegie Mellon student, studying Information Systems and Human Computer Interaction.
                             I aspire to work in the UX field through my background as a web application developer and my 
                             affinity for design and interfaces. I am graduating in May 2015 and will be looking for full 
-                            time opportunties in user experience engineering and interaction design. </p>
+                            time opportunties in UX engineering and interaction design. </p>
                         
                             <ul class="inline-list">
                                 <li>
@@ -139,13 +139,13 @@
                               <div class='rbox'>
                                 <h4>Intuit QuickBooks Online &nbsp; - &nbsp; Product Development Intern</h4>
                                 <h5>Mountain View, CA | Summer 2014</h5>
-                                <p>Implemented a scalable solution to reindex 1.5 trillion documents for QuickBooks Online search feature<br>
-                                  Fixed bugs and wrote unit tests for QuickBooks Online search feature</p>
+                                <p>Implemented a scalable solution to reindex 1.5 trillion documents for QuickBooks Online Search<br>
+                                  Fixed bugs and wrote unit tests for QuickBooks Online Search</p>
                               </div>
                               <div class='rbox'> 
                                 <h4>BNY Mellon &nbsp; - &nbsp; User Experience Co-op</h4>
                                 <h5>Pittsburgh, PA | September 2013 - December 2013</h5>
-                                <p>Built an informational tool that maps BNY Mellon’s front-facing applications and the lines of businesses that they serve<br>
+                                <p>Built an informational tool that maps BNY Mellon’s front-facing applications and the lines of businesses served<br>
                                   Restructured Sharepoint site to improve information design
                                 </p>
                               </div>
@@ -161,23 +161,23 @@
                             <div class='resume-wrapper'>
                               <h1>Leadership</h1>
                               <div class='rbox'> 
+                                <h4>Carnegie Mellon Greek Sing 2015</h4>
+                                <h5>Overall Chair | Pittsburgh, PA | Current</h5>
+                                <p>Heading the largest annual charity event with goal to raise over $100,000<br>
+                                  Proceeds go to Gilda’s Club Cancer Support Community of Pittsburgh</p>
+                              </div>
+                              <div class='rbox'> 
                                 <h4>Information Systems Student Advisory Committee</h4>
-                                <h5>Sophomore Representative | Pittsburgh, PA | Current</h5>
+                                <h5>Senior Representative | Pittsburgh, PA | August 2012- Current</h5>
                                 <p>Arranged events and seminars with faculty members and outside speakers<br>
                                   Provided a forum for student input on proposed curriculum changes, new programs, and other matters of concern to Information Systems majors</p>
                               </div>
                               <div class='rbox'> 
                                 <h4>Carnegie Mellon Freshmen Orientation</h4>
-                                <h5>Orientation Leader | Pittsburgh, PA | August 2013</h5>
-                                <p>Managed the Orientation Counselor selection process<br>
-                                  Led Orientation Counselors to guide freshmen through orientation events<br>
-                                  Facilitated set-up for activities during the week</p>
-                              </div>
-                              <div class='rbox'> 
-                                <h4>Special Olympics Volunteer</h4>
-                                <h5>Head Basketball Coach | San Mateo, CA | January 2008 - May 2011</h5>
-                                <p>Coordinated weekly practices with athletes and volunteers<br>
-                                  Oversaw teams in out of area regional tournaments</p>
+                                <h5>Orientation Leader | Pittsburgh, PA | August 2012 - August 2013</h5>
+                                <p>Managed the Orientation Counselor interview and selection process<br>
+                                  Trained 100+ Orientation Counselors to guide freshmen through orientation events<br>
+                                </p>
                               </div>
                             </div>
                             <div class="resume-wrapper show-for-small">
