@@ -17,9 +17,9 @@
                     <figcaption>Fig. A - View Event Page</figcaption>
                 </figure>
                 <h3>Process</h3>
-                <p>My team in this course was tasked to develop a system for Carnegie Mellon Student Government that could simplify the process of hosting events for student organizations. 
-                We identified one of the major pain points was that there was no universal system that was used by all of the organizations and it was confusing for students to get information on how to sign up for events by different organizations. 
-                We took an agile approach, meeting weekly with leaders of Student Government to discuss each sprint’s project requirements and to get their feedback on iterations of the web application. </p>
+                <p>My team was tasked to develop a system for Carnegie Mellon Student Government that could simplify the process of hosting events for student organizations. 
+                One of the major pain points was that there was no universal event registration system that was used by all of the organizations. It was confusing for students to get information on how and where to sign up for events by different organizations. 
+                We took an agile approach, meeting in weekly sprints with leaders of Student Government to discuss each sprint’s project requirements and to get their feedback on iterations of the web application. </p>
                 <figure class="erd">
                     <img src="../public/assets/projectImages/tartanTickets/erd_v1.png">
                     <figcaption>Fig. B - Entity relationship diagram iteration</figcaption>
@@ -41,8 +41,7 @@
 
                 <h3>Result</h3>
                 <p>This project taught me several important lessons about working on a project for a client. My team quickly learned that communication is a key factor in maintaining a good client relationship.
-                I had to learn how to play the role as both a designer and a developer, as we had to carefully plan the development of our application to satisfy the customer's needs. I found that brainstorming and ideation
-                consisted of the majority of the work we accomplished.</p>
+                I had to learn how to play the role as both a designer and a developer, as we had to carefully plan the development of our application to satisfy the customer's needs.</p>
             </div>
             <div class="medium-4 small-12 columns project-details">
                 <h5>Project Details</h5>

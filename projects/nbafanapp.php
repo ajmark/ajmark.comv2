@@ -16,20 +16,20 @@
                     <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/nbafanapp_home.png">
                     <figcaption>Fig. A - League Newsfeed</figcaption>
                 </figure>
+                <figure>
+                    <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/fan_map.png">
+                    <figcaption>Fig. B - Fan Map Page</figcaption>
+                </figure>
                 <h3>Process</h3>
                 <p>In this project, I was tasked with creating an application using Node.js. This was my first
                 project using the framework so it was challenging to learn and develop at the same time. Before
-                I began the development process, I had map out the work-flow of the application through a storyboard.
+                I began the development process, I had to map out the work-flow of the application through a storyboard.
                 It was also important that this application be responsive, so I designed it's layout to optimize both
                 both mobile and desktop views.
                 </p>
                 <figure id="nba-storyboard">
                     <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/storyboard_sketch.jpg">
-                    <figcaption>Fig. B - Early Storyboard Sketch </figcaption>
-                </figure>
-                <figure>
-                    <img class="screenshot-main" src="../public/assets/projectImages/nbaFanApp/fan_map.png">
-                    <figcaption>Fig. C - Fan Map Page</figcaption>
+                    <figcaption>Fig. C - Early Storyboard Sketch </figcaption>
                 </figure>
                 <h3>Result</h3>
                 <p>This was an important project for me because it forced me to learn how to use public API's

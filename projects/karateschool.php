@@ -37,7 +37,7 @@
                 <h3>Result</h3>
                 <p>This class introduced me to many of the fundamental concepts of web application development and it gave me a 
                 solid foundation to build upon and grow. It was a complex project that made me appreciate how difficult it is
-                to build web applications and it helped me understan the importance of planning and process.</p>
+                to build web applications and it helped me understand the importance of a test-driven development process.</p>
          
             </div>
             <div class="medium-4 small-12 columns project-details">

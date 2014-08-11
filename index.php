@@ -218,7 +218,7 @@
                     <div class="row">
                         <div class="small-12">
                             <h2 class="hide-for-medium-up">Projects</h2>
-                            <ul>
+                            <ul id="project-grid">
                                 <li class="project-box-container">
                                     <a id="tartantickets-project" href="projects/tartan_tickets.php">
                                     <img id="tartantickets-thumb" class="thumbnail" src="public/assets/thumbnails/tartantickets_thumb.png">
